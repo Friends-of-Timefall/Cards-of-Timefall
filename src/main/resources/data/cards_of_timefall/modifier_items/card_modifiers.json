@@ -1,0 +1,53 @@
+{
+  "cards_of_timefall:card_chronos": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_chronos"
+  },
+  "cards_of_timefall:card_cup": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_cup"
+  },
+  "cards_of_timefall:card_eternal": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_eternal"
+  },
+  "cards_of_timefall:card_fzzy": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_fzzy"
+  },
+  "cards_of_timefall:card_ghost": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_ghost"
+  },
+  "cards_of_timefall:card_kami": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_kami"
+  },
+  "cards_of_timefall:card_kudos": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_kudos"
+  },
+  "cards_of_timefall:card_mtijger": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_mtijger"
+  },
+  "cards_of_timefall:card_phoenix": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_phoenix"
+  },
+  "cards_of_timefall:card_snow": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_snow"
+  },
+  "cards_of_timefall:card_solace": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_solace"
+  },
+  "cards_of_timefall:card_sweeney": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_sweeney"
+  },
+  "cards_of_timefall:card_tamaki": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_tamaki"
+  },
+  "cards_of_timefall:card_timefall": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_timefall"
+  },
+  "cards_of_timefall:card_toboe": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_toboe"
+  },
+  "cards_of_timefall:card_wagon": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_wagon"
+  },
+  "cards_of_timefall:card_zarra": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_zarra"
+  }
+}

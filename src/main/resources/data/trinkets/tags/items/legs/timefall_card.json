@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cards_of_timefall:cards",
+    "cards_of_timefall:card_timefall"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:totem_of_undying",
+    {
+      "required": false,
+      "id": "amethyst_imbuement:totem_of_amethyst"
+    },
+    {
+      "required": false,
+      "id": "mcdar:boots_of_swiftness"
+    },
+    {
+      "required": false,
+      "id": "mcdar:death_cap_mushroom"
+    },
+    {
+      "required": false,
+      "id": "mcdar:ghost_cloak"
+    },
+    {
+      "required": false,
+      "id": "mcdar:light_feather"
+    },
+    {
+      "required": false,
+      "id": "mcdar:blast_fungus"
+    },
+    {
+      "required": false,
+      "id": "mcdar:harvester"
+    },
+    {
+      "required": false,
+      "id": "mcdar:lightning_rod"
+    },
+    {
+      "required": false,
+      "id": "mcdar:powershaker"
+    },
+    {
+      "required": false,
+      "id": "mcdar:updraft_tome"
+    },
+    {
+      "required": false,
+      "id": "mcdar:enchanters_tome"
+    },
+    {
+      "required": false,
+      "id": "mcdar:iron_hide_amulet"
+    },
+    {
+      "required": false,
+      "id": "mcdar:boots_of_swiftness"
+    },
+    {
+      "required": false,
+      "id": "mcdar:soul_healer"
+    },
+    {
+      "required": false,
+      "id": "mcdar:totem_of_regeneration"
+    },
+    {
+      "required": false,
+      "id": "mcdar:totem_of_shielding"
+    },
+    {
+      "required": false,
+      "id": "mcdar:totem_of_soul_protection"
+    },
+    {
+      "required": false,
+      "id": "mcdar:wind_horn"
+    },
+    {
+      "required": false,
+      "id": "mcdar:flaming_quiver"
+    },
+    {
+      "required": false,
+      "id": "mcdar:harpoon_quiver"
+    },
+    {
+      "required": false,
+      "id": "mcdar:thundering_quiver"
+    },
+    {
+      "required": false,
+      "id": "mcdar:torment_quiver"
+    },
+    {
+      "required": false,
+      "id": "mcdar:corrupted_seeds"
+    },
+    {
+      "required": false,
+      "id": "mcdar:gong_of_weakening"
+    },
+    {
+      "required": false,
+      "id": "mcdar:love_medallion"
+    },
+    {
+      "required": false,
+      "id": "mcdar:satchel_of_elements"
+    },
+    {
+      "required": false,
+      "id": "mcdar:shock_powder"
+    },
+    {
+      "required": false,
+      "id": "mcdar:buzzy_nest"
+    },
+    {
+      "required": false,
+      "id": "mcdar:enchanted_grass"
+    },
+    {
+      "required": false,
+      "id": "mcdar:golem_kit"
+    },
+    {
+      "required": false,
+      "id": "mcdar:tasty_bone"
+    },
+    {
+      "required": false,
+      "id": "mcdar:wonderful_wheat"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:blaze_of_light"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:book_of_secrets"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:bone_rattle"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:caduceus"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:living_flame"
+    },
+    {
+      "required": false,
+      "id": "imbued_gear:null_and_void"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "display": {
+    "icon":{
+      "item": "cards_of_timefall:card_timefall"
+    },
+    "title": {
+      "translate": "cards_of_timefall.advancement.timefall_card"
+    },
+    "description": {
+      "translate": "cards_of_timefall.advancement.timefall_card.desc"
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "criteria":{
+    "chronos":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_chronos"
+            ]
+          }
+        ]
+      }
+    },
+    "cup":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_cup"
+            ]
+          }
+        ]
+      }
+    },
+    "eternal":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_eternal"
+            ]
+          }
+        ]
+      }
+    },
+    "fzzy":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_fzzy"
+            ]
+          }
+        ]
+      }
+    },
+    "ghost":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_ghost"
+            ]
+          }
+        ]
+      }
+    },
+    "kami":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_kami"
+            ]
+          }
+        ]
+      }
+    },
+    "kudos":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_kudos"
+            ]
+          }
+        ]
+      }
+    },
+    "mtijger":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_mtijger"
+            ]
+          }
+        ]
+      }
+    },
+    "phoenix":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_phoenix"
+            ]
+          }
+        ]
+      }
+    },
+    "snow":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_snow"
+            ]
+          }
+        ]
+      }
+    },
+    "solace":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_solace"
+            ]
+          }
+        ]
+      }
+    },
+    "sweeney":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_sweeney"
+            ]
+          }
+        ]
+      }
+    },
+    "tamaki":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_tamaki"
+            ]
+          }
+        ]
+      }
+    },
+    "toboe":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_toboe"
+            ]
+          }
+        ]
+      }
+    },
+    "wagon":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_wagon"
+            ]
+          }
+        ]
+      }
+    },
+    "zarra":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_zarra"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot":
+    [
+      "cards_of_timefall:timefall_card"
+    ]
+  }
+}

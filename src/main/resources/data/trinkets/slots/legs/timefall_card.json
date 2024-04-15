@@ -1,0 +1,6 @@
+{
+ "amount": 1,
+  "order": 2,
+  "icon": "cards_of_timefall:gui/slots/timefall_card",
+  "validator_predicates": ["trinkets:tag"]
+}

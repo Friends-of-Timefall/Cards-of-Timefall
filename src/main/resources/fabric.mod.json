@@ -5,15 +5,23 @@
 
   "name": "Cards of Timefall",
   "description": "This is a description",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "fzzyhmstrs",
+    "chronosacaria"
+  ],
+  "contact": {
+
+  },
 
   "license": "All-Rights-Reserved",
   "icon": "assets/cards_of_timefall/icon.png",
 
   "environment": "*",
-  "entrypoints": {},
-
+  "entrypoints": {
+    "main": [
+      "dev.timefall.cards_of_timefall.CardsOfTimefall"
+    ]
+  },
       "mixins": [
         "cards_of_timefall.mixins.json"
       ],

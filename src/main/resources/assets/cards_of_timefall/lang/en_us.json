@@ -1,0 +1,78 @@
+{
+  "item.cards_of_timefall.card_chronos": "Chronos",
+  "item.cards_of_timefall.card_cup": "BackupCup",
+  "item.cards_of_timefall.card_eternal": "Eternal",
+  "item.cards_of_timefall.card_fzzy": "Fzzy",
+  "item.cards_of_timefall.card_ghost": "Ghost",
+  "item.cards_of_timefall.card_kami": "Kami <3",
+  "item.cards_of_timefall.card_kudos": "Kudos",
+  "item.cards_of_timefall.card_mtijger": "Tijger",
+  "item.cards_of_timefall.card_phoenix": "Phoenix",
+  "item.cards_of_timefall.card_snow": "Snow",
+  "item.cards_of_timefall.card_solace": "Solace",
+  "item.cards_of_timefall.card_sweeney": "Sweeney",
+  "item.cards_of_timefall.card_tamaki": "Tamaki",
+  "item.cards_of_timefall.card_timefall": "Timefall",
+  "item.cards_of_timefall.card_toboe": "Toboe",
+  "item.cards_of_timefall.card_wagon": "Dwagon",
+  "item.cards_of_timefall.card_zarra": "Zarra",
+
+  "effect.cards_of_timefall.quickening": "Quickening",
+  "effect.cards_of_timefall.hastening": "Hastening",
+  "effect.cards_of_timefall.strengthening": "Strengthening",
+
+  "itemGroup.cards_of_timefall.item_group": "Cards of Timefall",
+
+  "trinkets.slot.legs.timefall_card": "Timefall Card",
+
+  "equipment.modifier.cards_of_timefall:modifier_chronos": "Flurry of Blows",
+  "equipment.modifier.cards_of_timefall:modifier_chronos.desc": "Attacking while dual-wielding daggers or gauntlets stacks Quickening",
+
+  "equipment.modifier.cards_of_timefall:modifier_cup": "Rogues Slice",
+  "equipment.modifier.cards_of_timefall:modifier_cup.desc": "+5% damage to targets facing away from you",
+
+  "equipment.modifier.cards_of_timefall:modifier_eternal": "Perseverance",
+  "equipment.modifier.cards_of_timefall:modifier_eternal.desc": "-0.25 damage received while wearing light armor",
+
+  "equipment.modifier.cards_of_timefall:modifier_fzzy": "Miners Delight",
+  "equipment.modifier.cards_of_timefall:modifier_fzzy.desc": "Extra experience dropped from mining ore blocks",
+
+  "equipment.modifier.cards_of_timefall:modifier_ghost": "Ghostly Presence",
+  "equipment.modifier.cards_of_timefall:modifier_ghost.desc": "-5% damage received from undead attackers",
+
+  "equipment.modifier.cards_of_timefall:modifier_kami": "Cutthroat",
+  "equipment.modifier.cards_of_timefall:modifier_kami.desc": "+5% damage while wielding a dagger or knife",
+
+  "equipment.modifier.cards_of_timefall:modifier_kudos": "Intrepid Explorer",
+  "equipment.modifier.cards_of_timefall:modifier_kudos.desc": "Gain extra movement speed while in forests",
+
+  "equipment.modifier.cards_of_timefall:modifier_mtijger": "Shinies Collector",
+  "equipment.modifier.cards_of_timefall:modifier_mtijger.desc": "Deal additional damage for every Trinket and Shiny in your inventory",
+
+  "equipment.modifier.cards_of_timefall:modifier_phoenix": "Fiery Spirit",
+  "equipment.modifier.cards_of_timefall:modifier_phoenix.desc": "Periodically grant regeneration to the holder and nearby allies while on fire",
+
+  "equipment.modifier.cards_of_timefall:modifier_snow": "Cold Snap",
+  "equipment.modifier.cards_of_timefall:modifier_snow.desc": "Slow and deal 10% extra damage to enemies that haven't been attacked recently",
+
+  "equipment.modifier.cards_of_timefall:modifier_solace": "Lunar Kindred",
+  "equipment.modifier.cards_of_timefall:modifier_solace.desc": "Deal extra damage at night depending on the moon phase. Damage reduced on the new moon.",
+
+  "equipment.modifier.cards_of_timefall:modifier_sweeney": "Swordmaster",
+  "equipment.modifier.cards_of_timefall:modifier_sweeney.desc": "Gain random beneficial statuses when attacking with a two-handed sword",
+
+  "equipment.modifier.cards_of_timefall:modifier_tamaki": "Precision Marksman",
+  "equipment.modifier.cards_of_timefall:modifier_tamaki.desc": "Chance to deal critical strikes with bows and crossbows",
+
+  "equipment.modifier.cards_of_timefall:modifier_timefall": "Grains of Sand",
+  "equipment.modifier.cards_of_timefall:modifier_timefall.desc": "+7.5% damage while wielding a Timefall Development weapon",
+
+  "equipment.modifier.cards_of_timefall:modifier_toboe": "Huntcaller",
+  "equipment.modifier.cards_of_timefall:modifier_toboe.desc": "Kills heal nearby pets and summons, and making a kill with a pet nearby stacks Strengthening",
+
+  "equipment.modifier.cards_of_timefall:modifier_wagon": "Aerial Combatant",
+  "equipment.modifier.cards_of_timefall:modifier_wagon.desc": "+5% damage while flying",
+
+  "equipment.modifier.cards_of_timefall:modifier_zarra": "Everlasting Servitude",
+  "equipment.modifier.cards_of_timefall:modifier_zarra.desc": "Nearby pets and summons deal 5% extra damage"
+}
