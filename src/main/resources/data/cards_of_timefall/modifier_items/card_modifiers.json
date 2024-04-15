@@ -1,4 +1,37 @@
 {
+  "cards_of_timefall:card_chorse": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_chorse"
+  },
+  "cards_of_timefall:card_elder_guardian": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_elder_guardian"
+  },
+  "cards_of_timefall:card_warden": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_warden"
+  },
+  "cards_of_timefall:card_wither": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_wither"
+  },
+  "cards_of_timefall:card_blaze": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_blaze"
+  },
+  "cards_of_timefall:card_cave_spider": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_cave_spider"
+  },
+  "cards_of_timefall:card_creeper": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_creeper"
+  },
+  "cards_of_timefall:card_enderman": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_enderman"
+  },
+  "cards_of_timefall:card_iron_golem": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_iron_golem"
+  },
+  "cards_of_timefall:card_skeleton": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_skeleton"
+  },
+  "cards_of_timefall:card_zombie": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_zombie"
+  },
   "cards_of_timefall:card_chronos": {
     "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_chronos"
   },
@@ -43,6 +76,9 @@
   },
   "cards_of_timefall:card_toboe": {
     "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_toboe"
+  },
+  "cards_of_timefall:card_tollish": {
+    "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_tollish"
   },
   "cards_of_timefall:card_wagon": {
     "gear_core:gear_modifier_helper": "cards_of_timefall:modifier_wagon"

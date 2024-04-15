@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
+    "cards_of_timefall:card_blaze",
+    "cards_of_timefall:card_cave_spider",
+    "cards_of_timefall:card_creeper",
+    "cards_of_timefall:card_enderman",
+    "cards_of_timefall:card_iron_golem",
+    "cards_of_timefall:card_skeleton",
+    "cards_of_timefall:card_zombie",
     "cards_of_timefall:card_chronos",
     "cards_of_timefall:card_cup",
     "cards_of_timefall:card_eternal",
@@ -15,6 +22,7 @@
     "cards_of_timefall:card_sweeney",
     "cards_of_timefall:card_tamaki",
     "cards_of_timefall:card_toboe",
+    "cards_of_timefall:card_tollish",
     "cards_of_timefall:card_wagon",
     "cards_of_timefall:card_zarra"
   ]

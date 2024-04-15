@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cards_of_timefall:item/card_enderman"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "selected": 1.0
+      },
+      "model": "cards_of_timefall:item/card_enderman_open"
+    }
+  ]
+}

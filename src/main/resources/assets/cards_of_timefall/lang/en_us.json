@@ -1,4 +1,20 @@
 {
+  "item.cards_of_timefall.card_pack": "Timefall Card Pack",
+  "item.cards_of_timefall.card_pack.flavor": "What shiny card lies within? Maybe the new limited edition chorse holographic?!",
+
+  "item.cards_of_timefall.card_chorse": "Chorse",
+  "item.cards_of_timefall.card_elder_guardian": "Elder Guardian",
+  "item.cards_of_timefall.card_warden": "Warden",
+  "item.cards_of_timefall.card_wither": "Wither",
+
+  "item.cards_of_timefall.card_blaze": "Blaze",
+  "item.cards_of_timefall.card_cave_spider": "Cave Spider",
+  "item.cards_of_timefall.card_creeper": "Creeper",
+  "item.cards_of_timefall.card_enderman": "Enderman",
+  "item.cards_of_timefall.card_iron_golem": "Irom Golem",
+  "item.cards_of_timefall.card_skeleton": "Skeleton",
+  "item.cards_of_timefall.card_zombie": "Zombie",
+
   "item.cards_of_timefall.card_chronos": "Chronos",
   "item.cards_of_timefall.card_cup": "BackupCup",
   "item.cards_of_timefall.card_eternal": "Eternal",
@@ -14,6 +30,7 @@
   "item.cards_of_timefall.card_tamaki": "Tamaki",
   "item.cards_of_timefall.card_timefall": "Timefall",
   "item.cards_of_timefall.card_toboe": "Toboe",
+  "item.cards_of_timefall.card_tollish": "Tollish",
   "item.cards_of_timefall.card_wagon": "Dwagon",
   "item.cards_of_timefall.card_zarra": "Zarra",
 
@@ -21,9 +38,47 @@
   "effect.cards_of_timefall.hastening": "Hastening",
   "effect.cards_of_timefall.strengthening": "Strengthening",
 
+  "cards_of_timefall.advancement.timefall_card": "Gotta [Copyright] 'Em All!",
+  "cards_of_timefall.advancement.timefall_card.desc": "Collect every Timefall Card! Congratulations!",
+
   "itemGroup.cards_of_timefall.item_group": "Cards of Timefall",
 
   "trinkets.slot.legs.timefall_card": "Timefall Card",
+
+  "cards_of_timefall.info.obtaining_cards": "Obtain cards by finding card packs in chests and opening them.",
+
+  "equipment.modifier.cards_of_timefall:modifier_chorse": "Mounted Infantry",
+  "equipment.modifier.cards_of_timefall:modifier_chorse.desc": "+7.5% damage while riding a mount",
+
+  "equipment.modifier.cards_of_timefall:modifier_elder_guardian": "Spiky Boi",
+  "equipment.modifier.cards_of_timefall:modifier_elder_guardian.desc": "Deal 3 thorns damage to attackers",
+
+  "equipment.modifier.cards_of_timefall:modifier_warden": "Subterranean Menace",
+  "equipment.modifier.cards_of_timefall:modifier_warden.desc": "The holder is blinded, but has increased health and deals increased damage",
+
+  "equipment.modifier.cards_of_timefall:modifier_wither": "Withering Touch",
+  "equipment.modifier.cards_of_timefall:modifier_wither.desc": "Attacks wither targets",
+
+  "equipment.modifier.cards_of_timefall:modifier_blaze": "Hellish Native",
+  "equipment.modifier.cards_of_timefall:modifier_blaze.desc": "take significantly less damage from fire-like sources",
+
+  "equipment.modifier.cards_of_timefall:modifier_cave_spider": "Noxious Bite",
+  "equipment.modifier.cards_of_timefall:modifier_cave_spider.desc": "Attacks poison targets",
+
+  "equipment.modifier.cards_of_timefall:modifier_creeper": "Blastproof",
+  "equipment.modifier.cards_of_timefall:modifier_creeper.desc": "Take less damage from explosions",
+
+  "equipment.modifier.cards_of_timefall:modifier_enderman": "Otherworldly",
+  "equipment.modifier.cards_of_timefall:modifier_enderman.desc": "Significant health boost, but the holder takes damage in water",
+
+  "equipment.modifier.cards_of_timefall:modifier_iron_golem": "Iron Man",
+  "equipment.modifier.cards_of_timefall:modifier_iron_golem.desc": "Big boost to armor, but the holder is slowed",
+
+  "equipment.modifier.cards_of_timefall:modifier_skeleton": "Archery Adept",
+  "equipment.modifier.cards_of_timefall:modifier_skeleton.desc": "+3% damage with ranged weapons",
+
+  "equipment.modifier.cards_of_timefall:modifier_zombie": "Dead Weight",
+  "equipment.modifier.cards_of_timefall:modifier_zombie.desc": "+50% knockback resistance",
 
   "equipment.modifier.cards_of_timefall:modifier_chronos": "Flurry of Blows",
   "equipment.modifier.cards_of_timefall:modifier_chronos.desc": "Attacking while dual-wielding daggers or gauntlets stacks Quickening",
@@ -65,10 +120,13 @@
   "equipment.modifier.cards_of_timefall:modifier_tamaki.desc": "Chance to deal critical strikes with bows and crossbows",
 
   "equipment.modifier.cards_of_timefall:modifier_timefall": "Grains of Sand",
-  "equipment.modifier.cards_of_timefall:modifier_timefall.desc": "+7.5% damage while wielding a Timefall Development weapon",
+  "equipment.modifier.cards_of_timefall:modifier_timefall.desc": "+7.5% damage while wielding a Timefall Development weapon, and buffs to armor, armor toughness, and move speed",
 
   "equipment.modifier.cards_of_timefall:modifier_toboe": "Huntcaller",
   "equipment.modifier.cards_of_timefall:modifier_toboe.desc": "Kills heal nearby pets and summons, and making a kill with a pet nearby stacks Strengthening",
+
+  "equipment.modifier.cards_of_timefall:modifier_tollish": "Rubbery",
+  "equipment.modifier.cards_of_timefall:modifier_tollish.desc": "Take 25% less damage from falls and things falling onto you",
 
   "equipment.modifier.cards_of_timefall:modifier_wagon": "Aerial Combatant",
   "equipment.modifier.cards_of_timefall:modifier_wagon.desc": "+5% damage while flying",

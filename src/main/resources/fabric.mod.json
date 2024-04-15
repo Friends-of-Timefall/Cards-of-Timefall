@@ -20,12 +20,14 @@
   "entrypoints": {
     "main": [
       "dev.timefall.cards_of_timefall.CardsOfTimefall"
+    ],
+    "client": [
+      "dev.timefall.cards_of_timefall.client.CardsOfTimefallClient"
     ]
   },
-      "mixins": [
-        "cards_of_timefall.mixins.json"
-      ],
-
+  "mixins": [
+    "cards_of_timefall.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
         "fabric": "*",

@@ -26,6 +26,31 @@ public class ModifierConsumers {
     private static final TagKey<Item> gauntlets = TagKey.of(RegistryKeys.ITEM,new Identifier("c","weapons/gaunlets"));
     private static List<StatusEffect> effects = null;
 
+    public static EquipmentModifier.ToolConsumer WARDEN_CONSUMER = (itemStack, user, target) -> {
+        if (user.getWorld().getTime() % 20 != 0L) return;
+        user.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS,100));
+    };
+
+    public static EquipmentModifier.ToolConsumer WITHER_CONSUMER = (itemStack, user, target) -> {
+        if (target == null) return;
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER,80,1));
+    };
+
+    ///////////////////////
+
+    public static EquipmentModifier.ToolConsumer CAVE_SPIDER_CONSUMER = (itemStack, user, target) -> {
+        if (target == null) return;
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON,100,0));
+    };
+
+    public static EquipmentModifier.ToolConsumer ENDERMAN_CONSUMER = (itemStack, user, target) -> {
+        if (user.getWorld().getTime() % 40 != 0L) return;
+        if (user.isWet())
+            user.damage(user.getDamageSources().drown(), 1.0f);
+    };
+
+    ///////////////////////
+
     public static EquipmentModifier.ToolConsumer CHRONOS_CONSUMER = (itemStack, user, target) -> {
         ItemStack main = user.getMainHandStack();
         ItemStack off = user.getMainHandStack();
@@ -68,14 +93,15 @@ public class ModifierConsumers {
     };
 
     public static EquipmentModifier.ToolConsumer SWEENEY_CONSUMER = (itemStack, user, target) -> {
-        if (user.getRandom().nextFloat() > 0.2f) return;
+        if (user.getRandom().nextFloat() > 0.35f) return;
+
         if (!(itemStack.getItem() instanceof SwordItem && user.getOffHandStack().isEmpty())) return;
         if (effects == null) {
             effects = Registries.STATUS_EFFECT.stream().filter(StatusEffect::isBeneficial).toList();
         }
         int size = effects.size();
         int rand = user.getRandom().nextInt(size);
-        user.addStatusEffect(new StatusEffectInstance(effects.get(rand),120,0));
+        user.addStatusEffect(new StatusEffectInstance(effects.get(rand),140,0));
     };
 
     public static EquipmentModifier.ToolConsumer TOBOE_CONSUMER = (itemStack, user, target) -> {

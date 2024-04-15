@@ -1,0 +1,23 @@
+{
+"type": "advancement_reward",
+"pools":
+[
+{
+"rolls": 1,
+"entries": [
+{
+"type": "tag",
+"name": "cards_of_timefall:cards",
+"weight": 3,
+"expand": true
+},
+{
+"type": "tag",
+"name": "cards_of_timefall:special_cards",
+"weight": 1,
+"quality": 0.25,
+"expand": true
+}
+]
+}
+]}

@@ -16,6 +16,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.tag.DamageTypeTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
@@ -28,11 +29,42 @@ public class ModifierFunctions {
     private static final TagKey<Item> daggers = TagKey.of(RegistryKeys.ITEM,new Identifier("c","weapons/daggers"));
     private static final TagKey<Item> shinies = TagKey.of(RegistryKeys.ITEM,new Identifier("cards_of_timefall","shinies"));
 
+    public static EquipmentModifier.DamageFunction CHORSE_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if(a == null) return am;
+        if (u.getVehicle() == null) return am;
+        return  am * 1.075f;
+    };
+
+    public static EquipmentModifier.DamageFunction ELDER_GUARDIAN_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if (a == null) return am;
+        a.damage(u.getDamageSources().thorns(a),3.0f);
+        return am;
+    };
+
+    ////////////////////
+
+    public static EquipmentModifier.DamageFunction BLAZE_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if(!ds.isIn(DamageTypeTags.IS_FIRE)) return am;
+        return  am * 0.8f;
+    };
+
+    public static EquipmentModifier.DamageFunction CREEPER_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if(!ds.isIn(DamageTypeTags.IS_EXPLOSION)) return am;
+        return  am * 0.8f;
+    };
+
+    public static EquipmentModifier.DamageFunction SKELETON_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if(!ds.isIn(DamageTypeTags.IS_PROJECTILE)) return am;
+        return  am * 1.03f;
+    };
+
+    ////////////////////
+
     public static EquipmentModifier.DamageFunction CUP_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
         if(a == null) return am;
         float uRot = u.bodyYaw;
         float aRot = a.bodyYaw;
-        if (MathHelper.angleBetween(uRot,aRot) <= 180f) return am * 1.05f;
+        if (MathHelper.angleBetween(uRot,aRot) <= 90f) return am * 1.05f;
         return  am;
     };
 
@@ -74,7 +106,7 @@ public class ModifierFunctions {
                     count++;
             }
         }
-        return am * (1f + (count * 0.0075f));
+        return am * (1f + (count * 0.006f));
     };
 
     public static EquipmentModifier.DamageFunction SNOW_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
@@ -110,6 +142,12 @@ public class ModifierFunctions {
         if (Objects.equals(id.getNamespace(), "mcdw") || Objects.equals(id.getNamespace(), "simplyswords")) return am * 1.075f;
         return am;
     };
+
+    public static EquipmentModifier.DamageFunction TOLLISH_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
+        if (!ds.isIn(DamageTypeTags.IS_FALL) && !ds.isIn(DamageTypeTags.DAMAGES_HELMET)) return am;
+        return am * 0.75f;
+    };
+
 
     public static EquipmentModifier.DamageFunction WAGON_FUNCTION = (ItemStack s, LivingEntity u, LivingEntity a, DamageSource ds, float am) -> {
         if(u.isFallFlying()) return am * 1.05f;

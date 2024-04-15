@@ -13,6 +13,138 @@
     "hidden": true
   },
   "criteria":{
+    "chorse":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_chorse"
+            ]
+          }
+        ]
+      }
+    },
+    "elder_guardian":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_elder_guardian"
+            ]
+          }
+        ]
+      }
+    },
+    "warden":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_warden"
+            ]
+          }
+        ]
+      }
+    },
+    "wither":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_wither"
+            ]
+          }
+        ]
+      }
+    },
+    "blaze":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_blaze"
+            ]
+          }
+        ]
+      }
+    },
+    "cave_spider":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_cave_spider"
+            ]
+          }
+        ]
+      }
+    },
+    "creeper":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_creeper"
+            ]
+          }
+        ]
+      }
+    },
+    "enderman":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_enderman"
+            ]
+          }
+        ]
+      }
+    },
+    "iron_golem":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_iron_golem"
+            ]
+          }
+        ]
+      }
+    },
+    "skeleton":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_skeleton"
+            ]
+          }
+        ]
+      }
+    },
+    "zombie":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_zombie"
+            ]
+          }
+        ]
+      }
+    },
     "chronos":{
       "trigger": "minecraft:inventory_changed",
       "conditions":{
@@ -176,6 +308,18 @@
           {
             "items":[
               "cards_of_timefall:card_toboe"
+            ]
+          }
+        ]
+      }
+    },
+    "tollish":{
+      "trigger": "minecraft:inventory_changed",
+      "conditions":{
+        "items":[
+          {
+            "items":[
+              "cards_of_timefall:card_tollish"
             ]
           }
         ]

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "cards_of_timefall:card_chorse",
+    "cards_of_timefall:card_elder_guardian",
+    "cards_of_timefall:card_warden",
+    "cards_of_timefall:card_wither"
+  ]
+}
