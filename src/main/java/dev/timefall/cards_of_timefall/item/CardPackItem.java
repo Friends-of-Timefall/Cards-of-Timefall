@@ -43,14 +43,14 @@ public class CardPackItem extends Item {
         LootContextParameterSet.Builder builder = new LootContextParameterSet.Builder((ServerWorld)user.getWorld()).add(LootContextParameters.THIS_ENTITY,user).add(LootContextParameters.ORIGIN, user.getPos());
         LootContextParameterSet lootContextParameterSet = builder.build(LootContextTypes.ADVANCEMENT_REWARD);
         ObjectArrayList<ItemStack> stacks =  lootTable.generateLoot(lootContextParameterSet, user.getLootTableSeed());
-        if (!user.isCreative())
-            stack.decrement(1);
         for (ItemStack s : stacks){
             if (s.getItem() instanceof HolographicCardItem) {
                 HolographicCardItem.assignHolographic(s, user);
             }
             user.getInventory().offerOrDrop(s);
         }
+        if (!user.isCreative())
+            stack.decrement(1);
         user.getWorld().playSound(null,user.getBlockPos(), SoundEvents.ITEM_BOOK_PAGE_TURN, SoundCategory.PLAYERS,0.75f,1f);
         return TypedActionResult.success(stack);
     }
